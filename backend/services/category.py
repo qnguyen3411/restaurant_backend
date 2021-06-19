@@ -36,4 +36,30 @@ class CategoryService(BaseService):
 
         return category_dbo_to_dto(dbo)
 
+    def get_all_categories(self):
+        dbo_list = self.session.query(CategoryDBO).all()
+        if not dbo_list:
+            raise ObjectNotFound("Categories fetch failed")
 
+        return [category_dbo_to_dto(dbo) for dbo in dbo_list]
+
+    def update_category(self, dto: CategoryDTO) -> CategoryDTO:
+        dbo = self.session.query(CategoryDBO).filter_by(id=dto.id).first()
+        if not dbo:
+            raise ObjectNotFound("Category id '{}' not found".format(category_id))
+        dbo.name = dto.name
+        dbo.index = dto.index
+        self.session.commit()
+        return category_dbo_to_dto(dbo)
+        
+    def delete_category(self, category_id: UUID) -> CategoryDTO:
+        #find category by id
+        dbo = self.session.query(CategoryDBO).filter_by(id=category_id).first()
+        if not dbo:
+            raise ObjectNotFound("Category id '{}' not found".format(category_id))
+        #delete the category
+        self.session.delete(dbo)
+        #save the database
+        self.session.commit()
+        #return the deleted category
+        return category_dbo_to_dto(dbo)

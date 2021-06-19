@@ -48,3 +48,32 @@ class CategoryResource:
         response_data = schema.dumps(returned_dto)
 
         return Response(response_data, status=200, headers={}, mimetype="application/json")
+    
+    @staticmethod
+    def get_all_categories() -> Response:
+        try:
+            returned_dto = CategoryService().get_all_categories()
+        except ValueError as e:
+            abort(400, {'message': str(e)})
+        except Exception as e:
+            abort(500, {'message': str(e)})
+            logger.debug("CategoryResource get 500 {}".format(e))
+
+            # Dumps to UI format (json)
+        schema = CategorySchema(many=True)
+        response_data = schema.dumps(returned_dto)
+
+        return Response(response_data, status=200, headers={}, mimetype="application/json")
+
+    @staticmethod
+    def update_category(id: UUID) -> Response:
+        pass
+    
+    @staticmethod
+    def delete_category(id: UUID) -> Response:
+        #call the delete method of the category resource, get back the deleted category object
+
+        #serialize the category object into json
+
+        #return the response
+        pass

@@ -65,6 +65,8 @@ paths:
             application/json:
               schema:
                 $ref: '#components/schemas/Category'
+    
+
 
     get:
       summary: "get all categories"
@@ -97,7 +99,37 @@ paths:
               schema:
                 $ref: '#components/schemas/Category'
 
+    delete:
+      summary: "delete a category by id"
+      description: ""
+      operationId: app.delete_category
+      parameters:
+        - $ref: "#components/parameters/category_id"
 
+      responses:
+        '200':
+          description: |-
+            Deleted category object
+          content:
+            application/json:
+              schema:
+                $ref: '#components/schemas/Category'
+
+    put:
+      summary: "update a category by id"
+      description: ""
+      operationId: app.update_category
+      parameters:
+        - $ref: "#components/parameters/category_id"
+
+      responses:
+        '200':
+          description: |-
+            updated category object
+          content:
+            application/json:
+              schema:
+                $ref: '#components/schemas/Category'
 
 
 components:

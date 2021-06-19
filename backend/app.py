@@ -36,12 +36,18 @@ def create_merchant() -> Response:
     return {}#MerchantResource.post()
 
 def get_all_categories() -> Response:
-    return {}#CategoryResource.get_all_categories()
+    return CategoryResource.get_all_categories()
 
 def get_category(category_id: UUID) -> Response:
     return CategoryResource.get_by_id(category_id)
 
 def create_category() -> Response:
     return CategoryResource.post()
+
+def delete_category(category_id: UUID) -> Response:
+    return CategoryResource.delete(category_id)
+
+def update_category(category_id: UUID) -> Response:
+    return {}#CategoryResource.update(category_id)
 
 app, flask_app = create_app()
