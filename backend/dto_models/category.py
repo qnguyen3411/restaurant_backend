@@ -35,7 +35,7 @@ class Category(object):
         default=Factory(uuid4),
         validator=validators.instance_of(UUID),
     )
-
+#test
 if __name__ == '__main__':
     import uuid
     from schemas.category import CategorySchema
@@ -53,7 +53,7 @@ if __name__ == '__main__':
     print(category_dto)
     print(dto)
 
-
-    output_json = category_schema.dumps(dto)
-    print(output_json)
+    # Dumps to UI with UI format
+    # output_json = category_schema.dumps(dto)
+    # print(output_json)
 

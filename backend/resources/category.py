@@ -47,4 +47,5 @@ class CategoryResource:
         #Dumps to UI format (json)
         response_data = schema.dumps(returned_dto)
 
+        #result in HTTP
         return Response(response_data, status=200, headers={}, mimetype="application/json")

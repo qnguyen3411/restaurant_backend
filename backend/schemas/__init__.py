@@ -2,6 +2,7 @@ from marshmallow import Schema, EXCLUDE
 
 class BaseSchema(Schema):
     class Meta:
+        # pass
         unknown = EXCLUDE
     # SKIP_TYPES = {type(None)} # set([type(None)])
     #

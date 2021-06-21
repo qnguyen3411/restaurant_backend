@@ -13,13 +13,12 @@ class CategorySchema(BaseSchema):
 
 
 # Test
-
 if __name__ == '__main__':
     import uuid
     category_schema = CategorySchema()
     category_json = {
         'name': 'Appertizer',
-        'index' : 0,
+        'index' : '1',
         'id': uuid.uuid4(),
         'abc': 'xyz'
     }
@@ -28,7 +27,7 @@ if __name__ == '__main__':
         def __init__(self, name, index):
             self.name = name
             self.index = index
-
+    #validate the data using load() function
     category_dto = category_schema.load(category_json)
     #dto = CategoryDTO(**category_dto)
     print(category_dto)

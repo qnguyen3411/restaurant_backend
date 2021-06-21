@@ -21,12 +21,16 @@ class CategoryService(BaseService):
         return self.session.query(CategoryDBO).filter_by(name=name).first()
 
     def create(self, dto: CategoryDTO) -> CategoryDTO:
+        #transfrom to database object
         dbo = category_dto_to_dbo(dto)
         if self._is_category_name_exist(dto.name):
             raise ObjectAlreadyExists("Category '{}' already exist".format(dbo.name))
 
+        #add to database
         self.session.add(dbo)
         self.session.commit()
+
+        #return back to dto object
         return category_dbo_to_dto(dbo)
 
     def get_by_id(self, category_id: UUID) -> CategoryDTO:

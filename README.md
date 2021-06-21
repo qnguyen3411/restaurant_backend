@@ -35,6 +35,7 @@ flask db upgrade
 ```
 ###Run program 
 ```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://postgres:postgres@localhost:5432/postgres
 export FLASK_APP=app:flask_app
 python app.py
 #ex: http://localhost:8080/v0/ui/
