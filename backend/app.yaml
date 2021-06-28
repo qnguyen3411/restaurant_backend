@@ -131,7 +131,56 @@ paths:
               schema:
                 $ref: '#components/schemas/Category'
 
+  /menu-item:
+    post:
+      summary: "create a menu item"
+      description: ""
+      operationId: app.create_menu_item
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/MenuItem'
 
+      responses:
+        '200':
+          description: |-
+            New Recipe information
+          content:
+            application/json:
+              schema:
+                $ref: '#components/schemas/MenuItem'
+
+    get:
+      summary: "get all menu item"
+      description: ""
+      operationId: app.get_all_menu_items
+      responses:
+        '200':
+          description: |-
+            Get all Recipes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#components/schemas/MenuItem'
+
+  /menu-item/{menu_item_id}:
+    get:
+      summary: "get menu item by id"
+      description: ""
+      operationId: app.get_menu_item
+      parameters:
+        - $ref: "#components/parameters/menu_item_id"
+      responses:
+        '200':
+          description: |-
+            Get recipe by id
+          content:
+            application/json:
+              schema:
+                $ref: '#components/schemas/MenuItem'
 components:
   parameters:
     merchant_id:
@@ -148,6 +197,16 @@ components:
       required: true
       schema:
         type: string
+        format: uuid
+
+
+    menu_item_id:
+      name: menu_item_id
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
 
   schemas:
     Merchant:
@@ -207,4 +266,68 @@ components:
           format: date-time
           description: |-
             Datetime the category was created
+          readOnly: true
+
+    MenuItem:
+      type: object
+      required:
+        - name
+        - categoryId
+        - description
+        - price
+        - size
+        - imageUrl
+        - active
+        - isTaxable
+        - taxRate
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: A unique identifier of a recipe
+          readOnly: True
+        name:
+          type: string
+          description: Name of the  add on group
+        categoryId:
+          type: string
+          format: uuid
+          description: A foreign key category id from category
+        description:
+          type: string
+          nullable: true
+          description: description of a recipe
+        price:
+          type: number
+          description: price of a recipe
+        size:
+          type: string
+          description: size of a recipe
+        imageUrl:
+          type: string
+          nullable: true
+          description: image of a recipe
+        active:
+          type: boolean
+          nullable: true
+          description: an active status of a recipe
+        isTaxable:
+          type: boolean
+          nullable: true
+          description: tax status of a recipe
+        taxRate:
+          type: number
+          nullable: true
+          description: tax rate of a recipe
+        createdTime:
+          type: string
+          format: date-time
+          description: |-
+            Datetime the add-on group was created
+          readOnly: true
+        updatedTime:
+          type: string
+          format: date-time
+          description: |-
+            Datetime the add-on group was created
           readOnly: true

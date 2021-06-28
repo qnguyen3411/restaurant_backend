@@ -1,0 +1,1062 @@
+{
+  "Appetizers": [
+    {
+      "name": "French Fries",
+      "description": "Khoai tay chien.",
+      "price": 3.75,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Eggrolls (4)",
+      "description": "Cha gio.",
+      "price": 6.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Jumbo Chicken Wings (5)",
+      "description": "Canh ga chien.",
+      "price": 5.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Jumbo Crispy Garlic Chicken Wings (5)",
+      "description": "Canh ga toi.",
+      "price": 7.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Boba21 Sampler",
+      "description": "French Fries, CF,BW,CW,PC&CS",
+      "price": 13,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Popcorn Chicken",
+      "description": null,
+      "price": 6,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Jumbo Spicy Chicken Wings",
+      "description": "Canh ga cay.",
+      "price": 5.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Coconut Shrimp (5)",
+      "description": null,
+      "price": 5.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Spring Rolls",
+      "description": "Goi Cuon",
+      "price": 6.95,
+      "size": "\bRegular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Pho Bo | Beef Noodle Soup": [
+    {
+      "name": "Pho Dac Biet",
+      "description": "Special combination pho with rare filet mignon, flank, fat brisket, tendon, meat ball noodle soup.",
+      "price": 13.5,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai",
+      "description": "Rare filet mignon beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Nam",
+      "description": "Rare filet mignon and flank beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Chin",
+      "description": "Rare filet mignon and brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Nam Gau Gan",
+      "description": "Rare filet mignon and flank, fat brisket, tendon noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Gan",
+      "description": "Rare filet mignon, tendon beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Nam Gau",
+      "description": "Rare filet mignon, flank, fat brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Nam Gan",
+      "description": "Rare filet mignon, flank, tendon beef soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Gau",
+      "description": "Rare filet mignon, fat brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin",
+      "description": "Well-done brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Nam",
+      "description": "Well-done brisket and flank beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Nam Gau",
+      "description": "Well-done brisket, flank, fat brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Nam Gan",
+      "description": "Well-done brisket, flank, tendon beef noodle soup.",
+      "price": 12.75,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Nam Gau Gan",
+      "description": "Well-done brisket, flank, fat brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Gau",
+      "description": "Well-done brisket, fat brisket beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Gan",
+      "description": "Well-done brisket, tendon beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Nam Ve Don",
+      "description": "Well-done brisket, flank, crunchy flank beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Bo Vien",
+      "description": "Beef meat ball noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Tai Bo Vien",
+      "description": "Rare filet mignon, beef ball noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Khong Thit",
+      "description": "No meat. Beef noodle soup.",
+      "price": 7.95,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Chin Bo Vien",
+      "description": "Well-done brisket, beef ball beef noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Nam Bo Vien",
+      "description": "Flank, beef ball noodle soup.",
+      "price": 12.75,
+      "size": "Large | Lon",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Rice & Egg Noodle Soup | Hu Tieu & Mi": [
+    {
+      "name": "Hu Tieu Nam Vang Noodle Soup | Nuoc",
+      "description": "Soup style. Noodle soup nam vang by Cambodia style.",
+      "price": 13.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Hu Tieu Nam Vang Noodle | Kho",
+      "description": "Dry style. Noodle soup nam vang by Cambodia style.",
+      "price": 13.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Nam Vang Noodle Soup | Nuoc",
+      "description": "Soup style. Nam vang yellow noodle.",
+      "price": 13.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Nam Vang Dry Noodle Soup | Kho",
+      "description": "Dry style. Nam vang yellow noodle soup.",
+      "price": 13.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Hu Tieu Hai San Noodle Soup Style",
+      "description": "Seafood rice noodle soup.",
+      "price": 13.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Hai San Noodle Soup",
+      "description": "Seafood yellow noodle soup.",
+      "price": 13.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Ga Roti Noodle Bowl",
+      "description": "Dry noodle bowl. Egg noodle with roast chicken.",
+      "price": 14,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Fried Dishes | Cac Mon Xao": [
+    {
+      "name": "Com Bo Luc Lac",
+      "description": "Red rice with shaking cubed beef.",
+      "price": 14.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Nui Xao Bo Luc Lac",
+      "description": "Macaroni with shaking cubed beef.",
+      "price": 14.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Com Do Ga Roti",
+      "description": "Red rice with roast chicken.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Com Chien Hai San",
+      "description": "Seafood fried rice.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Com Chien Bo",
+      "description": "Beef fried rice.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Com Xao Hai San",
+      "description": "Rice with stir fried seafood and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Com Thit Bo Xao",
+      "description": "Rice with stir fried beef and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Xao Hai San",
+      "description": "Fried rice noodle with seafood and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Xao Thit Bo",
+      "description": "Fried rice noodle with beef and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Xao Hai San",
+      "description": "Fried egg noodle with seafood and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Xao Thit Bo",
+      "description": "Fried egg noodle with beef and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Com Chien Ga",
+      "description": "Chicken fried rice.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Xao Don Hai San",
+      "description": "Crispy fried egg noodle with seafood and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mi Xao Don Thit Bo",
+      "description": "Crispy fried egg noodle with beef and vegetables.",
+      "price": 13.25,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Ap Chao Hai San",
+      "description": "Crispy fried noodle with seafood and vegetables.",
+      "price": 13.25,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Pho Ap Chao Thit Bo",
+      "description": "Crispy fried rice noodle with beef and vegetables.",
+      "price": 13.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Green Tea": [
+    {
+      "name": "Jasmine Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Passion Fruit Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Peach Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Lychee Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Lychee & Rose Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Strawberry Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Strawberry & Lychee Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Mango Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Guava Green Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Black Tea": [
+    {
+      "name": "Assam Black Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Ceylon Black Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Lychee Black Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Peach Black Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Side Orders": [
+    {
+      "name": "Double Noodle | Double Banh Pho",
+      "description": "Them banh pho.",
+      "price": 2,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Beef Tendon (4) | Them Gan",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Crunchy Flank (5) | Them Ve Zon",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Fat Brisket | Them Gau",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Flank Beef (5) | Them Nam",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Meat Balls (6)",
+      "description": "Them bo vien.",
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Salad | Them 1 Phan Salad",
+      "description": "Them phan salad nho.",
+      "price": 2.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Extra Well-Done Brisket (5)",
+      "description": "Them thit chin.",
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Filet Mignon \bRare Beef (1/2lb)",
+      "description": null,
+      "price": 6.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Oil Onion with Fat Soup",
+      "description": "Hanh tran nuoc beo.",
+      "price": 1.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "White Onion with Vinegar | Hanh Dam",
+      "description": null,
+      "price": 1.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Oolong Tea": [
+    {
+      "name": "Roasted Oolong Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Dark Roasted Oolong Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Winter Melon Oolong Tea",
+      "description": null,
+      "price": 3.95,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Soft Drinks | Nuoc Uong": [
+    {
+      "name": "Bottled Water",
+      "description": null,
+      "price": 1.5,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Soda",
+      "description": null,
+      "price": 1.75,
+      "size": "Regular",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ],
+  "Party Tray": [
+    {
+      "name": "Chicken Fried Rice Party Tray | Com Chien Ga",
+      "description": "Chicken fried rice.",
+      "price": 35,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Chicken Fried Rice Party Tray | Com Chien Ga",
+      "description": "Chicken fried rice.",
+      "price": 45,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Chicken Fried Rice Party Tray | Com Chien Ga",
+      "description": "Chicken fried rice.",
+      "price": 85,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Beef Fried Rice Party Tray | Com Chien Bo",
+      "description": "Beef fried rice.",
+      "price": 35,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Beef Fried Rice Party Tray | Com Chien Bo",
+      "description": "Beef fried rice.",
+      "price": 45,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Beef Fried Rice Party Tray | Com Chien Bo",
+      "description": "Beef fried rice.",
+      "price": 85,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Seafood Fried Rice Party Tray | Com Chien Hai San",
+      "description": "Seafood fried rice.",
+      "price": 45,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Seafood Fried Rice Party Tray | Com Chien Hai San",
+      "description": "Seafood fried rice.",
+      "price": 55,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Seafood Fried Rice Party Tray | Com Chien Hai San",
+      "description": "Seafood fried rice.",
+      "price": 95,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Chicken & Rice Noodles Party Tray | Hu Tieu Xao Ga",
+      "description": "Fried rice noodles with chicken.",
+      "price": 35,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Chicken & Rice Noodles Party Tray | Hu Tieu Xao Ga",
+      "description": "Fried rice noodles with chicken.",
+      "price": 45,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Chicken & Rice Noodles Party Tray | Hu Tieu Xao Ga",
+      "description": "Fried rice noodles with chicken.",
+      "price": 85,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Beef & Fried Rice Noodles Party Tray | Hu Tieu Xao Bo",
+      "description": "Fried rice noodles with beef.",
+      "price": 35,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Beef & Fried Rice Noodles Party Tray | Hu Tieu Xao Bo",
+      "description": "Fried rice noodles with beef.",
+      "price": 45,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Beef & Fried Rice Noodles Party Tray | Hu Tieu Xao Bo",
+      "description": "Fried rice noodles with beef.",
+      "price": 85,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Seafood & Fried Rice Noodles Party Tray | Hu Tieu Xao Hai San",
+      "description": "Fried rice noodle with seafood.",
+      "price": 45,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Seafood & Fried Rice Noodles Party Tray | Hu Tieu Xao Hai San",
+      "description": "Fried rice noodle with seafood.",
+      "price": 55,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Seafood & Fried Rice Noodles Party Tray | Hu Tieu Xao Hai San",
+      "description": "Fried rice noodle with seafood.",
+      "price": 95,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Crispy Garlic Chicken Wings Party Tray | Canh Ga Chien Bo Toi",
+      "description": "Crispy garlic chicken wings.",
+      "price": 45,
+      "size": "Small (Serves 3 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Crispy Garlic Chicken Wings Party Tray | Canh Ga Chien Bo Toi",
+      "description": "Crispy garlic chicken wings.",
+      "price": 55,
+      "size": "Medium (Serves 4 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    },
+    {
+      "name": "Crispy Garlic Chicken Wings Party Tray | Canh Ga Chien Bo Toi",
+      "description": "Crispy garlic chicken wings.",
+      "price": 95,
+      "size": "Extra Large (Serves 8 People)",
+      "imageUrl": "",
+      "active": true,
+      "isTaxable": true,
+      "taxRate": null
+    }
+  ]
+}

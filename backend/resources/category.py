@@ -9,21 +9,6 @@ import logging
 logger = logging.getLogger(__name__)
 
 class CategoryResource:
-    @staticmethod
-    def get_by_id(id: UUID) -> Response:
-        try:
-            returned_dto = CategoryService().get_by_id(id)
-        except ValueError as e:
-            abort(400, {'message': str(e)})
-        except Exception as e:
-            abort(500, {'message': str(e)})
-            logger.debug("CategoryResource get 500 {}".format(e))
-
-            # Dumps to UI format (json)
-        schema = CategorySchema()
-        response_data = schema.dumps(returned_dto)
-
-        return Response(response_data, status=200, headers={}, mimetype="application/json")
 
     @staticmethod
     def post() -> Response:
@@ -48,7 +33,23 @@ class CategoryResource:
         response_data = schema.dumps(returned_dto)
 
         return Response(response_data, status=200, headers={}, mimetype="application/json")
-    
+
+    @staticmethod
+    def get_by_id(id: UUID) -> Response:
+        try:
+            returned_dto = CategoryService().get_by_id(id)
+        except ValueError as e:
+            abort(400, {'message': str(e)})
+        except Exception as e:
+            abort(500, {'message': str(e)})
+            logger.debug("CategoryResource get 500 {}".format(e))
+
+            # Dumps to UI format (json)
+        schema = CategorySchema()
+        response_data = schema.dumps(returned_dto)
+
+        return Response(response_data, status=200, headers={}, mimetype="application/json")
+
     @staticmethod
     def get_all_categories() -> Response:
         try:
