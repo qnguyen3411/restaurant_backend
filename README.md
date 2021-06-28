@@ -13,17 +13,15 @@ python3 -m virtualenv .venv -p python3
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-### Run postgres database in docker container
-```bash
-docker-compose up -d postgres
-```
-
 
 ### To access swagger page
 ```bash
 localhost:8080/v0/ui # local environment
 ```
-
+### Run postgres database in docker container
+```bash
+docker-compose up -d postgres
+```
 ### To upgrade database
 ```bash
 cd backend 

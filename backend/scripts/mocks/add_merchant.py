@@ -33,7 +33,7 @@ def create_addOnGroup(merchant_name: str):
             if(r.status_code == 500):
                 print(r.text)
 
-def create_recipe(merchant_name: str):
+def create_menu_item(merchant_name: str):
     recipe_file = os.path.join(CURRENT_DIR, merchant_name, 'recipes.json')
     with open(recipe_file, 'r') as fp:
         category_group = json.load(fp)
@@ -46,7 +46,7 @@ def create_recipe(merchant_name: str):
             for recipe in recipes:
                 recipe['categoryId'] = mapping[category_name]
                 # print(json.dumps(recipe, indent=2))
-                r = requests.post(BASE_URL + '/recipe', json=recipe)
+                r = requests.post(BASE_URL + '/menu-item', json=recipe)
                 if(r.status_code == 500):
                     print(r.text)
 
@@ -98,9 +98,9 @@ def create_recipeToAddOnGroup(merchant_name: str):
 
 def create_merchant_detail(merchant_name):
     # create_merchant(merchant_name)
-    create_categories(merchant_name)
+    # create_categories(merchant_name)
     # create_addOnGroup(merchant_name)
-    # create_recipe(merchant_name)
+    create_menu_item(merchant_name)
     # create_addOn(merchant_name)
     # create_recipeToAddOnGroup(merchant_name)
 
