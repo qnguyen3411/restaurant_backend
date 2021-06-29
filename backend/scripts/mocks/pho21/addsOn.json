@@ -1,0 +1,182 @@
+{
+  "Add Ons | Pho": [
+    {
+      "name": "Double Soup | Them 1 Lon Soup",
+      "price": 3.95,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Extra Noodle | Them Banh Pho",
+      "price": 1.25,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Double Vegetables | Them 1 Phan Rau Gia",
+      "price": 1.85,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Extra Lime Slices (3) | Them 3 Mieng Chanh",
+      "price": 1.25,
+      "description": null,
+      "isTaxable": true
+    }
+  ],
+  "Select Noodle Type | Pho": [
+    {
+      "name": "Regular Pho Noodles",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Big Flat Noodles | Banh Pho Tuoi",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    }
+  ],
+  "Add Extra Sauce | Fried Dishes": [
+    {
+      "name": "Extra Hot Sauce (3pcs)",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Extra Soy Sauce (3pcs)",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    }
+  ],
+  "Add Tea Toppings | Green Tea": [
+    {
+      "name": "Aloe Vera",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Black Pearl",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Coffee Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Crystal Pearl",
+      "price": 0.75,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Egg Pudding",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Grass Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Green Tea Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Lychee Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Mango Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Passion Fruit Popping",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Pomegranate Popping",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Rainbow Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Strawberry Jelly",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Strawberry Popping Balls",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Yogurt Popping Balls",
+      "price": 0.5,
+      "description": null,
+      "isTaxable": true
+    }
+  ],
+  "Milk Options": [
+    {
+      "name": "With Milk",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "No Milk",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    }
+  ],
+  "Select Soda Type": [
+    {
+      "name": "Coca Cola",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Diet Coke",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    },
+    {
+      "name": "Sprite",
+      "price": 0,
+      "description": null,
+      "isTaxable": true
+    }
+  ]
+}

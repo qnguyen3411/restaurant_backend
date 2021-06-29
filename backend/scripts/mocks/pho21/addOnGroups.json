@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Add Ons | Pho",
+    "minQuantity": 0,
+    "maxQuantity": 1
+  },
+  {
+    "name": "Select Noodle Type | Pho",
+    "minQuantity": 1,
+    "maxQuantity": 1
+  },
+  {
+    "name": "Add Extra Sauce | Fried Dishes",
+    "minQuantity": 0,
+    "maxQuantity": null
+  },
+  {
+    "name": "Add Tea Toppings | Green Tea",
+    "minQuantity": 0,
+    "maxQuantity": null
+  },
+  {
+    "name": "Milk Options",
+    "minQuantity": 1,
+    "maxQuantity": 1
+  },
+  {
+    "name": "Select Soda Type",
+    "minQuantity": 1,
+    "maxQuantity": 1
+  }
+]
