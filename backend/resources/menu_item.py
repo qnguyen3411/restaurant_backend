@@ -22,9 +22,9 @@ class MenuItemResource:
         except ValueError as e:
             abort(400, {'message': str(e)})
             logger.debug("CategoryResource post 400 {}".format(e))
-        # except ObjectAlreadyExists as e:
-        #     abort(400, {'message': str(e)})
-        #     logger.debug("CategoryResource post 400 {}".format(e))
+        except ObjectAlreadyExists as e:
+            abort(400, {'message': str(e)})
+            logger.debug("CategoryResource post 400 {}".format(e))
         except Exception as e:
             abort(500, {'message': str(e)})
             logger.debug("CategoryResource post 500 {}".format(e))
@@ -51,7 +51,7 @@ class MenuItemResource:
     @staticmethod
     def get_all_menu_items() -> Response:
         try:
-            returned_dto = MenuItemService().get_all_categories()
+            returned_dto = MenuItemService().get_all_menu_items()
         except ValueError as e:
             abort(400, {'message': str(e)})
         except Exception as e:

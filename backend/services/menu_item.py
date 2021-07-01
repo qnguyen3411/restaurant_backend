@@ -19,11 +19,11 @@ class MenuItemService(BaseService):
     def _is_recipe_name_exist(self, name: str) -> bool:
         return self.session.query(MenuItemDBO).filter_by(name=name).first()
 
-    def get_all_recipes(self) -> List[MenuItemDTO]:
+    def get_all_menu_items(self) -> List[MenuItemDTO]:
         base_query = self.session.query(MenuItemDBO)
 
         # sort by creation_time
-        dbos = base_query.order_by( MenuItemDBO.creation_time)
+        dbos = base_query.order_by( MenuItemDBO.created_time)
 
         dtos = [menu_item_dbo_to_dto(dbo) for dbo in dbos]
         return dtos

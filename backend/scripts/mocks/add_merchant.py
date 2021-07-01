@@ -98,7 +98,7 @@ def create_recipeToAddOnGroup(merchant_name: str):
 
 def create_merchant_detail(merchant_name):
     # create_merchant(merchant_name)
-    # create_categories(merchant_name)
+    create_categories(merchant_name)
     # create_addOnGroup(merchant_name)
     create_menu_item(merchant_name)
     # create_addOn(merchant_name)
