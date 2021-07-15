@@ -10,6 +10,7 @@ from resources.category import CategoryResource
 from resources.menu_item import MenuItemResource
 from resources.addon_group import AddonGroupResource
 from resources.addon import AddonResource
+from resources.menu import MenuResource
 from resources.menu_item_to_addon_group import MenuItemToAddonGroupResource
 import logging
 
@@ -65,6 +66,9 @@ def create_menu_item() -> Response:
 def get_all_menu_items() -> Response:
     return MenuItemResource.get_all_menu_items()
 
+def get_menu_items_from_category(category_id:UUID) -> Response:
+    return MenuItemResource.get_menu_items_from_category(category_id)
+
 def get_menu_item(menu_item_id: UUID) -> Response:
     return MenuItemResource.get_by_id(menu_item_id)
 
@@ -81,13 +85,17 @@ def create_addon_group() -> Response:
 def get_all_addon_groups() -> Response:
     return AddonGroupResource.get_all_addon_groups()
 
+def get_addon_groups_from_menu_item(menu_item_id:UUID) -> Response:
+    return AddonGroupResource.get_addon_groups_from_menu_item(menu_item_id)
+
 def get_addon_group(addon_group_id: UUID) -> Response:
     return AddonGroupResource.get_by_id(addon_group_id)
 
-def delete_addon_group(menu_item_id: UUID) -> Response:
+
+def delete_addon_group(addon_group_id: UUID) -> Response:
     return {}#AddonGroupSource.delete(menu_addon_group)
 
-def update_addon_group(menu_item_id: UUID) -> Response:
+def update_addon_group(addon_group_id: UUID) -> Response:
     return {}#AddonGroupSource.update(menu_addon_group)
 
 #Addon
@@ -96,6 +104,9 @@ def create_addon() -> Response:
 
 def get_all_addons() -> Response:
     return AddonResource.get_all_addons()
+
+def get_addons_from_group(addon_group_id:UUID) -> Response:
+    return AddonResource.get_addons_from_group(addon_group_id)
 
 def get_addon(addon_id: UUID) -> Response:
     return AddonResource.get_by_id(addon_id)
@@ -108,4 +119,7 @@ def create_menu_item_to_addon_group() -> Response:
 def get_all_menu_item_to_addon_groups() -> Response:
     return MenuItemToAddonGroupResource.get_all_menu_item_to_addon_groups()
 
+#menu
+def get_menu()->Response:
+    return MenuResource.get_menu()
 app, flask_app = create_app()

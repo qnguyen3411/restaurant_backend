@@ -83,6 +83,24 @@ paths:
                 items:
                   $ref: '#components/schemas/Category'
 
+  /category/{category_id}/menu-items:
+    get:
+      summary: "get all menu items in a category"
+      description: ""
+      operationId: app.get_menu_items_from_category
+      parameters:
+        - $ref: "#components/parameters/category_id"
+      responses:
+        '200':
+          description: |-
+            Get all menu items in a category
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#components/schemas/MenuItem'
+
   /category/{category_id}:
     get:
       summary: "get category.py by id"
@@ -167,6 +185,24 @@ paths:
                 items:
                   $ref: '#components/schemas/MenuItem'
 
+  /menu-item/{menu_item_id}/addon-groups:
+    get:
+      summary: "get all addon groups in a menu item"
+      description: ""
+      operationId: app.get_addon_groups_from_menu_item
+      parameters:
+        - $ref: "#components/parameters/menu_item_id"
+      responses:
+        '200':
+          description: |-
+            Get all addon groups in a menu item
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#components/schemas/AddonGroup'
+
   /menu-item/{menu_item_id}:
     get:
       summary: "get menu item by id"
@@ -234,6 +270,23 @@ paths:
               schema:
                 $ref: '#components/schemas/AddonGroup'
 
+  /addon-group/{addon_group_id}/addons:
+    get:
+      summary: "get all addons in an addon group"
+      description: ""
+      operationId: app.get_addons_from_group
+      parameters:
+        - $ref: "#components/parameters/addon_group_id"
+      responses:
+        '200':
+          description: |-
+            Get all addons in an addon group
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#components/schemas/Addon'
 #addon
   /addon:
     post:
@@ -285,6 +338,7 @@ paths:
               schema:
                 $ref: '#components/schemas/Addon'
 
+
 #menu item to addon group
   /menu-item-to-addon-group:
     post:
@@ -320,6 +374,21 @@ paths:
                 type: array
                 items:
                   $ref: '#components/schemas/MenuItemToAddonGroup'
+  /menu:
+    get:
+      summary: "get menu"
+      description: ""
+      operationId: app.get_menu
+      responses:
+        '200':
+          description: |-
+            Get menu
+          content:
+            application/json:
+              schema:
+                type: object
+#                items:
+#                  $ref: '#components/schemas/Addon'
 components:
   parameters:
     merchant_id:
